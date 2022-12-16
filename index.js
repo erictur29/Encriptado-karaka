@@ -7,7 +7,6 @@ const appDiv = document.getElementById('app');
 let palabra=prompt("escribe algo");
 let palabraE
 
-if (palabra.includes("a"||"e"||"i"||"o"||"u")){
 palabra=palabra.replaceAll("a",'1')
 palabra=palabra.replaceAll("e",'2')
 palabra=palabra.replaceAll("i",'3')
