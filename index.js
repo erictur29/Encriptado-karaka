@@ -12,7 +12,7 @@ palabra=palabra.replaceAll("e",'2')
 palabra=palabra.replaceAll("i",'3')
 palabra=palabra.replaceAll("o",'4')
 palabra=palabra.replaceAll("u",'5')
-}
+
 
 
 appDiv.innerHTML = `<h1>${palabra}</h1>`;
